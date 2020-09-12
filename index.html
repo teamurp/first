@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<title></title>
 	<style type="text/css">
 		.container {
@@ -10,77 +11,35 @@
 			margin-left: auto;
 		}
 
-		.col-12 {
-			width: 100%;
-		}
-		.bg-success {
-			background-color: green;
-		}
-		.mt-1 {
-			margin-top: 10px;
+		.font {
+			font-family: Bahnschrift Light;
 		}
 
-		.bg-danger {
-			background-color: #f5d742;
-		}
-
-		.col-10 {
-			width: 80%;
-		}
-
-		.col-2 {
-			width: 20%;
-		}
-
-		.row {
-			display: flex;
-		}
-
-		.border {
-			border: 1px solid black;
-		}
-
-		.col-4 {
-			width: 33%;
-		}
-
-		.col-8 {
-			width: 67%;
-		}
-
-		.m-0 {
-			margin: 0px;
-		}
-
-		.m-2 {
-			margin: 20px;
-		}
-
-		.p-2 {
-			padding: 20px;
+		.btn-border {
+			border: 3px solid #489444;
 		}
 	</style>
 </head>
 <body>
-	<div class="container">
-		<div class="col-12 row" style="height: 100px">
-			<div class="col-10" style="height: 100px">
-				<h1>Thundercats Roar</h1>
-				<p>Ужасный мультсериал на Cartoon Network</p>
+	<div class="container p-0">
+		<div class="col-12 row p-0" style="height: 100px">
+			<div class="col-10 p-0" style="height: 100px">
+				<h1 class="font">Thundercats Roar</h1>
+				<p class="font">Ужасный мультсериал на Cartoon Network</p>
 			</div>
-			<div class="col-2" style="height: 100px">
+			<div class="col-2 p-0" style="height: 100px">
 				<img src="star.png" style="height: 50px" class="star">
-				<h1 class="m-0"><span class="starnum">-420</span></h1>
+				<h1 class="font"><span class="starnum font">-420</span></h1>
 			</div>
 		</div>
-		<div class="col-12 mt-1 row">
-			<div class="col-4">
-				<img src="1.jpg" class="col-12">
-				<button class="p-2 mt-1 btn">Добавить в список</button>
+		<div class="col-12 mt-1 row p-0">
+			<div class="col-4 p-0">
+				<img src="1.jpg" class="col-12 p-0">
+				<button class="p-3 btn btn1 btn-success btn-border font mt-2">Добавить в список</button>
 			</div>
-			<div class="col-8">
-				<iframe class="col-12" src="https://www.youtube.com/embed/afaithTQSaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
-				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<div class="col-8 p-0">
+				<iframe class="col-12 p-0" src="https://www.youtube.com/embed/afaithTQSaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
+				<p class="font m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -89,25 +48,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="col-12 row" style="height: 100px">
-			<div class="col-10" style="height: 100px">
-				<h1>Mao Mao: Heroes of Pure Heart - Season 2</h1>
-				<p>Ожидаемый сезон этого мультсериала</p>
+	<div class="container p-0">
+		<div class="col-12 row p-0" style="height: 100px">
+			<div class="col-10 p-0" style="height: 100px">
+				<h1 class="font">Mao Mao: Heroes of Pure Heart - Season 2</h1>
+				<p class="font">Ожидаемый сезон этого мультсериала</p>
 			</div>
-			<div class="col-2" style="height: 100px">
+			<div class="col-2 p-0" style="height: 100px">
 				<img src="star.png" style="height: 50px" class="star2">
-				<h1 class="m-0">+<span class="starnum2">420</span></h1>
+				<h1 class="m-0 font">+<span class="starnum2 font">420</span></h1>
 			</div>
 		</div>
-		<div class="col-12 mt-1 row">
-			<div class="col-4">
-				<img src="3.jpg" class="col-12">
-				<button class="p-2 mt-1 btn2">Добавить в список</button>
+		<div class="col-12 mt-1 row p-0">
+			<div class="col-4 p-0">
+				<img src="3.jpg" class="col-12 p-0">
+				<button class="p-3 btn btn2 btn-success font mt-2 btn-border">Добавить в список</button>
 			</div>
-			<div class="col-8">
-				<iframe class="col-12" src="https://www.youtube.com/embed/-MguZ9qbPmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
-				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<div class="col-8 p-0">
+				<iframe class="col-12 p-0" src="https://www.youtube.com/embed/-MguZ9qbPmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
+				<p class="m-2 font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -116,25 +75,25 @@
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="col-12 row" style="height: 100px">
-			<div class="col-10" style="height: 100px">
-				<h1>The Owl House</h1>
-				<p>Последний просмотренный мультсериал</p>
+	<div class="container p-0">
+		<div class="col-12 row p-0" style="height: 100px">
+			<div class="col-10 p-0" style="height: 100px">
+				<h1 class="font">The Owl House</h1>
+				<p class="font">Последний просмотренный мультсериал</p>
 			</div>
-			<div class="col-2" style="height: 100px">
+			<div class="col-2 p-0" style="height: 100px">
 				<img src="star.png" style="height: 50px" class="star3">
-				<h1 class="m-0">+<span class="starnum3">420</span></h1>
+				<h1 class="m-0 font">+<span class="starnum3 font">420</span></h1>
 			</div>
 		</div>
-		<div class="col-12 mt-1 row">
-			<div class="col-4">
-				<img src="2.jpg" class="col-12">
-				<button class="p-2 mt-1 btn3">Добавить в список</button>
+		<div class="col-12 mt-1 row p-0">
+			<div class="col-4 p-0">
+				<img src="2.jpg" class="col-12 p-0">
+				<button class="p-3 btn btn3 btn-success font mt-2 btn-border">Добавить в список</button>
 			</div>
-			<div class="col-8">
-				<iframe class="col-12" height="350" src="https://www.youtube.com/embed/1W1FFiT51lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<div class="col-8 p-0">
+				<iframe class="col-12 p-0" height="350" src="https://www.youtube.com/embed/1W1FFiT51lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p class="m-2 font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -144,10 +103,10 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-		let btn = document.querySelector('.btn');
+		let btn1 = document.querySelector('.btn1');
 		let btn2 = document.querySelector('.btn2');
 		let btn3 = document.querySelector('.btn3');
-		btn.onclick = function() {
+		btn1.onclick = function() {
 			alert('Добавлено в список!');
 		}
 		btn2.onclick = function() {
