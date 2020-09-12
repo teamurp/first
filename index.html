@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.container {
+			width: 1000px;
+			height: 800px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+
+		.col-12 {
+			width: 100%;
+		}
+		.bg-success {
+			background-color: green;
+		}
+		.mt-1 {
+			margin-top: 10px;
+		}
+
+		.bg-danger {
+			background-color: #f5d742;
+		}
+
+		.col-10 {
+			width: 80%;
+		}
+
+		.col-2 {
+			width: 20%;
+		}
+
+		.row {
+			display: flex;
+		}
+
+		.border {
+			border: 1px solid black;
+		}
+
+		.col-4 {
+			width: 33%;
+		}
+
+		.col-8 {
+			width: 67%;
+		}
+
+		.m-0 {
+			margin: 0px;
+		}
+
+		.m-2 {
+			margin: 20px;
+		}
+
+		.p-2 {
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col-12 row" style="height: 100px">
+			<div class="col-10" style="height: 100px">
+				<h1>Thundercats Roar</h1>
+				<p>Ужасный мультсериал на Cartoon Network</p>
+			</div>
+			<div class="col-2" style="height: 100px">
+				<img src="star.png" style="height: 50px" class="star">
+				<h1 class="m-0"><span class="starnum">-420</span></h1>
+			</div>
+		</div>
+		<div class="col-12 mt-1 row">
+			<div class="col-4">
+				<img src="1.jpg" class="col-12">
+				<button class="p-2 mt-1 btn">Добавить в список</button>
+			</div>
+			<div class="col-8">
+				<iframe class="col-12" src="https://www.youtube.com/embed/afaithTQSaI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
+				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Жалкая перезагрузка.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-12 row" style="height: 100px">
+			<div class="col-10" style="height: 100px">
+				<h1>Mao Mao: Heroes of Pure Heart - Season 2</h1>
+				<p>Ожидаемый сезон этого мультсериала</p>
+			</div>
+			<div class="col-2" style="height: 100px">
+				<img src="star.png" style="height: 50px" class="star2">
+				<h1 class="m-0">+<span class="starnum2">420</span></h1>
+			</div>
+		</div>
+		<div class="col-12 mt-1 row">
+			<div class="col-4">
+				<img src="3.jpg" class="col-12">
+				<button class="p-2 mt-1 btn2">Добавить в список</button>
+			</div>
+			<div class="col-8">
+				<iframe class="col-12" src="https://www.youtube.com/embed/-MguZ9qbPmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="height: 350px"></iframe>
+				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="col-12 row" style="height: 100px">
+			<div class="col-10" style="height: 100px">
+				<h1>The Owl House</h1>
+				<p>Последний просмотренный мультсериал</p>
+			</div>
+			<div class="col-2" style="height: 100px">
+				<img src="star.png" style="height: 50px" class="star3">
+				<h1 class="m-0">+<span class="starnum3">420</span></h1>
+			</div>
+		</div>
+		<div class="col-12 mt-1 row">
+			<div class="col-4">
+				<img src="2.jpg" class="col-12">
+				<button class="p-2 mt-1 btn3">Добавить в список</button>
+			</div>
+			<div class="col-8">
+				<iframe class="col-12" height="350" src="https://www.youtube.com/embed/1W1FFiT51lg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<p class="m-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let btn = document.querySelector('.btn');
+		let btn2 = document.querySelector('.btn2');
+		let btn3 = document.querySelector('.btn3');
+		btn.onclick = function() {
+			alert('Добавлено в список!');
+		}
+		btn2.onclick = function() {
+			alert('Добавлено в список!');
+		}
+		btn3.onclick = function() {
+			alert('Добавлено в список!');
+		}
+		let star = document.querySelector('.star');
+		let starnum = document.querySelector('.starnum');
+		let star2 = document.querySelector('.star2');
+		let starnum2 = document.querySelector('.starnum2');
+		let star3 = document.querySelector('.star3');
+		let starnum3 = document.querySelector('.starnum3');
+		let num = -420;
+		let num2 = 420;
+		let num3 = 420;
+		let n = 0;
+		let n2 = 0;
+		let n3 = 0;
+		star.onclick = function() {
+			num = num - 1;
+			starnum.innerHTML = num;
+			if(num<-435){
+				num = -435;
+				starnum.innerHTML = num;
+			}
+		}
+		star2.onclick = function() {
+			num2 = num2 + 1;
+			starnum2.innerHTML = num2;
+			if(num2>435){
+				num2 = 435;
+				starnum2.innerHTML = num2;
+			}
+		}
+		star3.onclick = function() {
+			num3 = num3 + 1;
+			starnum3.innerHTML = num3;
+			if(num3>435){
+				num3 = 435;
+				starnum3.innerHTML = num3;
+			}
+		}
+	</script>
+</body>
+</html>
